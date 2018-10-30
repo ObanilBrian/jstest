@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+header {
+  top: 0;
+  background-color: rgb(51, 100, 156);
+}
+
+footer {
+  bottom: 0;
+  background-color: rgb(29, 29, 29);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header-footer {
+  color: rgb(231, 241, 255);
+  position: fixed;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 3px rgb(29, 43, 63);
+}
+
+article {
+  font-family: 'Quicksand', sans-serif;
+  margin: 100px 10% 64px 10%;
+}
+
+article > #category > a {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+article > #category > a:link, article > #category > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+article > #category > a:hover {
+  color: rgb(51, 100, 156);
+  text-decoration: none;
+}
+
+article > section {
+  border-radius: 10px 10px;
+  border: rgb(148, 148, 148) solid thin;
+  width: 330px;
+  display: inline-block;
+  margin: 10px;
+}
+
+article > section:hover {
+  background-color: rgb(204, 219, 236);
+}
+
+article > section > .content {
+  text-align: left;
+  margin: 0 5% 5% 5%;
+}
+
+article > section > .content > h4, article > section > .content > h3 {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+article > section > .content > .footer-content {
+  width: 49%;
+  display: inline-block;
+  color: rgb(134, 134, 134);
+}

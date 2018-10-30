@@ -1,85 +1,53 @@
-<html>
+<!DOCTYPE html>
   <head>
     <title>Betica Shop</title>
     <meta charset="utf-8">
-    <meta name="author" content="YOUR NAME">
-  </head>
-  <body>
-    <div id="content"></div>
-    <script type="text/javascript">
-      var info = {
-        "items": {
-          "c001": {
-            "parent": "c000",
-            "title": "Phones"
-          },
-          "c002": {
-            "parent": "c000",
-            "title": "Laptops"
-          },
-          "c003": {
-            "parent": "c000",
-            "title": "Accessories"
-          },
-          "c004": {
-            "parent": "c100",
-            "title": "Cameras"
-          },
-          "p001": {
-            "parent": "c001",
-            "manufacturer": "Apple",
-            "title": "iPhone 10",
-            "price": 499,
-            "releaseDate": "2018-04-23T18:25:43.511Z"
-          },
-          "p002": {
-            "parent": "c002",
-            "manufacturer": "Apple",
-            "title": "Macbook Pro 2017",
-            "price": 1999,
-            "releaseDate": "2017-04-23T18:25:43.511Z"
-          },
-          "p003": {
-            "parent": "c002",
-            "manufacturer": "Dell",
-            "title": "XPS 13",
-            "price": 1399,
-            "releaseDate": "2017-04-23T18:25:43.511Z"
-          },
-          "p004": {
-            "parent": "c001",
-            "manufacturer": "Samsung",
-            "title": "Samsung Galaxy S10",
-            "price": 399,
-            "releaseDate": "2017-04-23T18:25:43.511Z"
-          },
-          "p005": {
-            "parent": "c003",
-            "manufacturer": "Apple",
-            "title": "Apple Charger 12W",
-            "price": 99,
-            "releaseDate": "2016-12-23T18:25:43.511Z"
-          },
-          "p006": {
-            "parent": "c003",
-            "manufacturer": "Samsung",
-            "title": "Samsung Charger 12W",
-            "price": 89,
-            "releaseDate": "2017-04-23T18:25:43.511Z"  
-          },
-          "p007": {
-            "parent": "c005",
-            "manufacturer": "Samsung",
-            "title": "Samsung VR Headset",
-            "price": 699,
-            "releaseDate": "2018-04-23T18:25:43.511Z"
-          }
-        }
-      };
-       
-      // enter your code here
-      // render the items in the info using native Javascript or jQuery
+    <meta name="author" content="Brian Obanil">
 
+    <!-- Icon -->
+    <link
+      rel="icon"
+      href="https://img.freepik.com/free-icon/shop-store-frontal-building_318-49796.jpg?size=338c&ext=jpg"
+      type="image/gif" />
+    
+    <!-- CSS File -->
+    <link 
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="resources/index.css" />
+  </head>
+
+  <body>
+    <header class="header-footer">
+      <h1>Betica Shop</h1>
+    </header>
+
+    <article>
+      <h1 id="category">
+        <hr>
+      </h1>
+
+      <section>
+        <h3>Please select a category.</h3>
+      </section>
+
+    </article>
+
+    <footer class="header-footer">
+      <h6>Copyright 2014 &copy;</h6>
+    </footer>
+
+    <!-- JS Files -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
     </script>
-</body>
+    <script
+      type="text/javascript" 
+      src="resources/index.js">
+    </script>
+  </body>
+
 </html>
